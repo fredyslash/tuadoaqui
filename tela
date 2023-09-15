@@ -1,0 +1,23 @@
+package iphone.tela;
+
+import iphone.aparelhoTelefonico.aparelhoTelefonico;
+import iphone.aparelhoTelefonico.atender;
+import iphone.aparelhoTelefonico.iniciarCorreioVoz;
+import iphone.aparelhoTelefonico.ligar;
+import iphone.navegadorInternet.adicionarNovaAba;
+import iphone.navegadorInternet.navegadorInternet;
+import iphone.reprodutorMusical.reprodutorMusical;
+import iphone.reprodutorMusical.tocar;
+
+public class tela {
+	public static void main(String[] args) {
+		aparelhoTelefonico aparelhoTelefonico = new atender();
+		aparelhoTelefonico.telefone();
+		
+		navegadorInternet navegadorInternet = new adicionarNovaAba();
+		navegadorInternet.internet();
+		
+		reprodutorMusical reprodutorMusical = new tocar();
+		reprodutorMusical.musica();
+	}
+}
