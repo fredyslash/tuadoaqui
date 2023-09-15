@@ -1,0 +1,25 @@
+package iphone;
+
+import iphone.aparelhoTelefonico.aparelhoTelefonico;
+import iphone.navegadorInternet.navegadorInternet;
+import iphone.reprodutorMusical.reprodutorMusical;
+
+
+public abstract class tudoEquipamento implements aparelhoTelefonico, reprodutorMusical, navegadorInternet {
+
+	@Override
+	public void internet() {
+		System.out.println("Explorer");		
+	}
+
+	@Override
+	public void musica() {
+		System.out.println("Itunes");		
+	}
+
+	@Override
+	public void telefone() {
+		System.out.println("Discador");		
+	}
+	
+}
