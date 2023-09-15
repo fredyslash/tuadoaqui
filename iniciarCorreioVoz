@@ -1,0 +1,10 @@
+package iphone.aparelhoTelefonico;
+
+public class iniciarCorreioVoz implements aparelhoTelefonico{
+
+	@Override
+	public void telefone() {
+		System.out.println("Correio de voz");		
+	}
+	
+}
