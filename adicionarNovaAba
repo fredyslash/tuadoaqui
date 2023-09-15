@@ -1,0 +1,10 @@
+package iphone.navegadorInternet;
+
+public class adicionarNovaAba implements navegadorInternet{
+
+	@Override
+	public void internet() {
+		System.out.println("Nova aba");		
+	}
+	
+}
