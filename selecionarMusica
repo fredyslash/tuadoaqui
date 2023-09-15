@@ -1,0 +1,10 @@
+package iphone.reprodutorMusical;
+
+public class selecionarMusica implements reprodutorMusical{
+
+	@Override
+	public void musica() {
+		System.out.println("Selecionar");		
+	}
+	
+}
