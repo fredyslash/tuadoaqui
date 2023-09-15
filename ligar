@@ -1,0 +1,10 @@
+package iphone.aparelhoTelefonico;
+
+public class ligar implements aparelhoTelefonico{
+
+	@Override
+	public void telefone() {
+		System.out.println("Ligação");		
+	}
+	
+}
